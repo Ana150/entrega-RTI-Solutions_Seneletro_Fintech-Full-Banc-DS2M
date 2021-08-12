@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumentos</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form method="GET" action="./frete.php">
+        <h1>Aumentos</h1>
+
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome"/>
+
+        <label for="salario">Salario(R$)</label>
+        <input id="salario" name="salario"/>
+
+        <div class="di1">
+            <label for="genero">Gênero</label>
+            <div class="di2">
+                <div class="di3">
+                  <input id="genero" name="genero" type="radio" >Feminino<br>  
+                </div>
+                <div class="di4">
+                   <input id="genero" name="genero" type="radio" >Masculino<br> 
+                </div>
+                <div class="di5">
+                   <input id="genero" name="genero" type="radio" >Outros<br> 
+                </div>
+            </div>
+        </div>
+
+        <label for="cargo">Cargo</label>
+        <select name="cargo" id="cargo">
+            <option value="selecione">Selecione</option>
+            <option value="desenvolvedor">Desenvolvedor</option>
+            <option value="suupervisor">Supervisor</option>
+            <option value="gerente">Gerente</option>
+            <option value="segurança">Segurança</option>
+        </select>
+
+        <button>Calcular</button>
+    </form>
+</body>
+</html>

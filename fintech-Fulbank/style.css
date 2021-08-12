@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px gray,0px 5px 20px gray;
+    padding: 30px;
+    background-color: rgb(158, 6, 6);
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+button{
+    background-color: white;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid black;
+    height: 30px;
+    font-weight: bold;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+.di1{
+    display: flex;
+    flex-direction: column;
+}
+
+.di2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.di3{
+    display: flex;
+    flex-direction: row;
+}
+
+.di4{
+    display: flex;
+    flex-direction: row;
+}
+
+.di5{
+    display: flex;
+    flex-direction: row;
+}
+
+#genero {
+    width: 20px;
+}
+
+#cargo{
+    height: 30px;
+    margin: 15px 0px 15px 0px;
+}
