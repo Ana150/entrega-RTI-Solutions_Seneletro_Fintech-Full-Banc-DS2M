@@ -7,8 +7,7 @@ if(isset($_GET["nome"]) && isset($_GET["salario"])
     $salario = $_GET["salario"];
     $genero = $_GET["genero"];
     $cargo = $_GET["cargo"];
-}else{
-    echo "ALGO DEU ERRADO!!!!!"
-}
 
-if
+}else{
+    echo "ALGO DEU ERRADO!!!!!";
+}
